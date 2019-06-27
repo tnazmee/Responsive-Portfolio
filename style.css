@@ -215,3 +215,44 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  /* media queries */
+
+  @media screen and (max-width: 980px) {
+    body {
+        background: url("./concrete_seamless.png");
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    body {
+        background: url("./concrete_seamless.png");
+    }
+    .auth-image {
+        width: 350px;
+    }
+    .work {
+        width: 294px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+        background: url("./concrete_seamless.png");
+    }
+    .auth-image {
+        width: 283px;
+    }
+    .work {
+        width: 283px;
+    }
+    #logo {
+        margin-left: -15px;
+        width: 375px;
+    }
+    nav {
+        margin-right: 60px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+  }
